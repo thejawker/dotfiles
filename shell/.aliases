@@ -61,3 +61,8 @@ alias scrape="scrapeUrl"
 
 alias npmnpm="npm config set registry https://registry.npmjs.org"
 alias npmspatie="npm config set registry https://npm.spatie.be"
+
+
+# Custom Aliases
+function commit(){ git add . && git commit -m "$1" && git push;}
+alias art='php artisan'
